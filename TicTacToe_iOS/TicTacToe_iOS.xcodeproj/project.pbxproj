@@ -14,6 +14,9 @@
 		95DE5C042389748B006BD7D9 /* TicTacToe_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95DE5C022389748B006BD7D9 /* TicTacToe_iOS.xcdatamodeld */; };
 		95DE5C062389748C006BD7D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DE5C052389748C006BD7D9 /* Assets.xcassets */; };
 		95DE5C092389748C006BD7D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DE5C072389748C006BD7D9 /* LaunchScreen.storyboard */; };
+		95DE5C1323897581006BD7D9 /* Grid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95DE5C1023897581006BD7D9 /* Grid.jpg */; };
+		95DE5C1423897581006BD7D9 /* Nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DE5C1123897581006BD7D9 /* Nought.png */; };
+		95DE5C1523897581006BD7D9 /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DE5C1223897581006BD7D9 /* Cross.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		95DE5C052389748C006BD7D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95DE5C082389748C006BD7D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95DE5C0A2389748C006BD7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DE5C1023897581006BD7D9 /* Grid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Grid.jpg; path = ../../../../Desktop/Grid.jpg; sourceTree = "<group>"; };
+		95DE5C1123897581006BD7D9 /* Nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nought.png; path = ../../../../Desktop/Nought.png; sourceTree = "<group>"; };
+		95DE5C1223897581006BD7D9 /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cross.png; path = ../../../../Desktop/Cross.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				95DE5C072389748C006BD7D9 /* LaunchScreen.storyboard */,
 				95DE5C0A2389748C006BD7D9 /* Info.plist */,
 				95DE5C022389748B006BD7D9 /* TicTacToe_iOS.xcdatamodeld */,
+				95DE5C1223897581006BD7D9 /* Cross.png */,
+				95DE5C1023897581006BD7D9 /* Grid.jpg */,
+				95DE5C1123897581006BD7D9 /* Nought.png */,
 			);
 			path = TicTacToe_iOS;
 			sourceTree = "<group>";
@@ -128,8 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95DE5C1423897581006BD7D9 /* Nought.png in Resources */,
 				95DE5C092389748C006BD7D9 /* LaunchScreen.storyboard in Resources */,
+				95DE5C1323897581006BD7D9 /* Grid.jpg in Resources */,
 				95DE5C062389748C006BD7D9 /* Assets.xcassets in Resources */,
+				95DE5C1523897581006BD7D9 /* Cross.png in Resources */,
 				95DE5C012389748B006BD7D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
